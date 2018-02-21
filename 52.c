@@ -1,0 +1,52 @@
+#include<stdio.h>
+int main()
+{
+int i;
+printf("enter the num:");
+scanf("%d",&i);
+if(i==0)
+{
+printf("\nzero");
+}
+if(i==1)
+{
+printf("\none");
+}
+if(i==2)
+{
+printf("\ntwo");
+}
+if(i==3)
+{
+printf("\nthree");
+}
+if(i==4)
+{
+printf("\nfour");
+}
+if(i==5)
+{
+printf("\nfive");
+}
+if(i==6)
+{
+printf("\nsix");
+}
+if(i==7)
+{
+printf("\nseven");
+}
+if(i==8)
+{
+printf("\neight");
+}
+if(i==9)
+{
+printf("\nnine");
+}
+if(i==10)
+{
+printf("\nten");
+}
+return 0;
+}
