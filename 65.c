@@ -1,7 +1,7 @@
 #include<stdio.h> 
 int main()
 {
-switch(printf("hello world"))
+switch(printf("sakthi sanjay"))
 {
 }
 return 0;
