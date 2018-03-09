@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-int a,b,i;
+int p,q,i;
 int lcm,gcd;
 printf("enter the numbers: \n");
-scanf("%d%d",&a,&b);
-for(i=1;i<=a&&i<=b;i++)
+scanf("%d%d",&p,&q);
+for(i=1;i<=p&&i<=q;i++)
 {
-if(a%i==0&&b%i==0)
+if(p%i==0&&q%i==0)
 {
 gcd=i;
 }
 }
-lcm=(a*b)/gcd;
-printf("lcm of %d and %d is: \n%d",a,b,lcm);
+lcm=(p*q)/gcd;
+printf("lcm of %d and %d is: \n%d",p,q,lcm);
 return 0;
 }
