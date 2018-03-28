@@ -2,10 +2,10 @@
 #include<string.h>
 int main()
 {
-char s[10];
+char p[10];
 printf("enter the string:\n");
-scanf("%s",&s);
-strrev(s);
-printf("reverse of a string \n%s",s);
+scanf("%s",&p);
+strrev(p;
+printf("reverse of a string \n%s",p;
 return 0;
 }
